@@ -1,0 +1,3 @@
+/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/BattleGame.dir
+/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/edit_cache.dir
+/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/rebuild_cache.dir
