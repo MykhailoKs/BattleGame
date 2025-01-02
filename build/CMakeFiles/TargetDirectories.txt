@@ -1,3 +1,9 @@
-/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/BattleGame.dir
-/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/edit_cache.dir
-/home/mykhailo/Desktop/BattleGame/build/CMakeFiles/rebuild_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/CMakeFiles/BattleGame.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/CMakeFiles/edit_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/CMakeFiles/rebuild_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/CMakeFiles/edit_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/CMakeFiles/rebuild_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/src/CMakeFiles/glfw.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/src/CMakeFiles/update_mappings.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/src/CMakeFiles/edit_cache.dir
+/home/mykhailo/Desktop/BattleRoyal/BattleGame/build/external/glfw/src/CMakeFiles/rebuild_cache.dir

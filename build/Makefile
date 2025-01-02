@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mykhailo/Desktop/BattleGame
+CMAKE_SOURCE_DIR = /home/mykhailo/Desktop/BattleRoyal/BattleGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mykhailo/Desktop/BattleGame/build
+CMAKE_BINARY_DIR = /home/mykhailo/Desktop/BattleRoyal/BattleGame/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mykhailo/Desktop/BattleGame/build/CMakeFiles /home/mykhailo/Desktop/BattleGame/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mykhailo/Desktop/BattleRoyal/BattleGame/build/CMakeFiles /home/mykhailo/Desktop/BattleRoyal/BattleGame/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mykhailo/Desktop/BattleGame/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mykhailo/Desktop/BattleRoyal/BattleGame/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,32 @@ BattleGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleGame.dir/build.make CMakeFiles/BattleGame.dir/build
 .PHONY : BattleGame/fast
 
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/glfw.dir/build.make external/glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named update_mappings
+
+# Build rule for target.
+update_mappings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 update_mappings
+.PHONY : update_mappings
+
+# fast build rule for target.
+update_mappings/fast:
+	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/update_mappings.dir/build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
+.PHONY : update_mappings/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -161,7 +187,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... update_mappings"
 	@echo "... BattleGame"
+	@echo "... glfw"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
