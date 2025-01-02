@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mykhailo/Desktop/BattleRoyal/BattleGame/external/glfw/include
+CXX_INCLUDES = -I/home/mykhailo/Desktop/BattleRoyal/BattleGame/external/glfw/include -I/home/mykhailo/Desktop/BattleRoyal/BattleGame/external/glad/include
 
 CXX_FLAGS = 
 

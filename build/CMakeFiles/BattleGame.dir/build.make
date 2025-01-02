@@ -93,6 +93,7 @@ BattleGame_EXTERNAL_OBJECTS =
 BattleGame: CMakeFiles/BattleGame.dir/src/main.cpp.o
 BattleGame: CMakeFiles/BattleGame.dir/build.make
 BattleGame: external/glfw/src/libglfw3.a
+BattleGame: external/glad/libglad.a
 BattleGame: /usr/lib/x86_64-linux-gnu/librt.a
 BattleGame: /usr/lib/x86_64-linux-gnu/libm.so
 BattleGame: CMakeFiles/BattleGame.dir/link.txt
